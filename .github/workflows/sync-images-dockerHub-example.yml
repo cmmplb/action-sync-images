@@ -31,7 +31,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         logout: false
         
-    - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub1
       run: |
         #!/usr/bin/env bash
         skopeo copy docker://elasticsearch docker://registry.cn-hangzhou.aliyuncs.com/cmmplb/elasticsearch
