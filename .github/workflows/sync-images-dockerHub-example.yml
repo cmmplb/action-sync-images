@@ -35,4 +35,5 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://elasticsearch:8.13.4 docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/elasticsearch:8.13.4
-        skopeo copy docker://portainer/portainer:alpine docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/portainer:alpine
+        #skopeo copy docker://portainer/portainer:alpine docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/portainer:alpine
+        skopeo copy docker://portainer/portainer-ce docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/portainer:ce
