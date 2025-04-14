@@ -41,5 +41,5 @@ jobs:
         #skopeo copy docker://mysql:5.7.22 docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/mysql:5.7.22
         #skopeo copy docker://redis:7.0-alpine docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/redis:7.0-alpine
         # skopeo copy docker://oraclelinux:8.9 docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/oracle:8.9-linux
-        skopeo copy apache/doris:1.2.2-fe-arm docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/doris:1.2.2-fe-arm
-        skopeo copy apache/doris:1.2.2-be-arm docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/doris:1.2.2-be-arm
+        skopeo copy docker.io/apache/doris:1.2.2-fe-arm docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/doris:1.2.2-fe-arm
+        skopeo copy docker.io/apache/doris:1.2.2-be-arm docker://registry.cn-shenzhen.aliyuncs.com/cmmplb/doris:1.2.2-be-arm
